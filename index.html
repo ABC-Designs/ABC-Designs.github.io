@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ABC & Designs – Film Portfolio</title>
   <style>
+    .glow-text {
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.glow-text:hover {
+  color: #a0f0ff;
+  text-shadow: 0 0 10px #80d0ff, 0 0 20px #80d0ff;
+}
     .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -120,6 +128,17 @@
       <a href="https://www.instagram.com/artbybow/" target="_blank">Instagram</a>
     </p>
     <p>© 2025 ABC & Designs | Created by Bow</p>
+}
+    footer a {
+  color: #80d0ff;
+  text-decoration: none;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+footer a:hover {
+  color: #a0f0ff;
+  text-shadow: 0 0 10px #80d0ff, 0 0 20px #80d0ff;
+}
   </footer>
 <script>
   const faders = document.querySelectorAll('.fade-in');
